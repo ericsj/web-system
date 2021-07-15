@@ -13,4 +13,4 @@ Descrição do Sistema.
 O nosso sistema web é para setor financeiro de barbearia, em que o barbeiro irá registar as suas atividades diárias,
 e terá a folha de salário beseados no registos dessas atividades ou não, e definidas pelo gestor financeiro da barbearia
 que poderá definir a forma de pagamento se será por comissão ou não, e terá o controlo total sobre os sistema para monitorar 
-o seu setor desde o relacionados a gastos e faturamento da barbearia.
+o seu setor relacionados a gastos e faturamento da barbearia.
