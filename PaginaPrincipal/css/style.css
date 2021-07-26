@@ -1,0 +1,179 @@
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+header{
+    width: 100%;
+    height: 67px;
+    background-color: #0069D0;
+
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.retleft{
+	width: 200px;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+
+	background: #0069D0;
+}
+
+.logo{
+
+    position: absolute;
+    height: 99px;
+    left: 0px;
+}
+
+
+.logoazul{
+    position: absolute;
+    height: 601px;
+    left: 550px;
+    top: -55px;
+}
+
+.textologo{
+    position: absolute;
+    width: 984px;
+    height: 91px;
+    left: 0px;
+    top: 389px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 91px;
+    color: #0069D0;
+}
+.textodescricao{
+    position: absolute;
+    width: 671px;
+    height: 311px;
+    left: 0px;
+    top: 512px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+
+    color: #696969;
+}
+
+.textoemail{
+/* email@email.com */
+
+
+position: absolute;
+width: 152px;
+height: 23px;
+left: 1600px;
+top: 22px;
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+text-decoration-line: underline;
+
+color: #DBDBDB;
+}
+
+body{
+    height: 939px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button {
+  border: none;
+  color: white;
+  height: 50px;
+  width: 198px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  background: #0069D0;
+  padding: 1px 1px;
+}
+
+.imgcalendario {
+    position: absolute;
+    left: 8px;
+    top: 175px;
+
+}
+
+.imgcartao {
+    position: absolute;
+    left: 8px;
+    top: 125px;
+
+}
+
+.imghome {
+    position: absolute;
+    left: 8px;
+    top: 67px;
+
+}
+
+.imgrelatorio {
+    position: absolute;
+    left: 8px;
+    top: 225px;
+}
+
+.imgusua {
+    position: absolute;
+    left: 8px;
+    top: 895px;
+}
+
+#botaousuario {
+    justify-content: flex-end;
+}
+
+.linha {
+    border: 1px solid #00C2FF;
+    width: 200px;
+}
+.linhavert{
+    position: absolute;
+    width: 880px;
+    left: -390px;
+    top: 500px;
+
+    border: 1px solid #00C2FF;
+    transform: rotate(90deg);
+}
+
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    body{
+        background-color: brown;
+    }
+    }
+
+
