@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,700;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    /*A cada 1 será considerado 10px*/
+    font-size: 62.5%;
+    width: 100%;
+}
+@media (max-width: 600px) {
+    html {
+        font-size: 45%;
+    }
+    body section .botao{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+    body section .entrar p{
+        margin-left: -25%;
+    }
+    body section .botao .criar{
+        margin-bottom: 10px;
+        width: 250px;
+        margin-left: -8%;
+    }
+    body section .botao .voltar{
+        width: 250px;
+        margin-left: -8%;
+    }
+    body section  .email
+        .senha .nome .rsenha{
+        margin-bottom: 10px;
+        padding: 5px;  
+    }
+        
+
+}
+
+.logo-img{
+    display: flex;
+    text-align: center;
+    height: 120px;
+    width: 200px;
+    margin: auto; 
+}
+header{
+    background-color: #0069D0;
+    height: 100%;
+
+}
+.entrar{
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 5% auto;
+    width: 50%;
+    height: 40%;
+}
+.entrar p{
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+h3{
+    font-size: 1.4rem;
+}
+.checkbox {
+    margin-bottom: 25px;
+}
+
+.checkbox label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 4px;
+    width: 22px;
+    height: 22px;
+    transition: transform 0.28s ease;
+    border-radius: 3px;
+    border: 1px solid #393b39;
+}
+.checkbox label:after {
+  content: '';
+    display: block;
+    width: 10px;
+    height: 5px;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;    
+    -webkit-transform: rotate(-45deg) scale(0);
+    transform: rotate(-45deg) scale(0);
+    transition: transform ease 0.25s;
+    will-change: transform;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+.checkbox input[type="checkbox"]:checked ~ label::before {
+    color: white;
+    background-color: #0069D0;
+}
+
+.checkbox input[type="checkbox"]:checked ~ label::after {
+    -webkit-transform: rotate(-45deg) scale(1);
+    transform: rotate(-45deg) scale(1);
+}
+.checkbox {
+    width: 100%;
+    margin: 15px auto;
+    position: relative;
+    display: block;
+}
+
+.checkbox input[type="checkbox"] {
+    width: auto;
+    opacity: 0.00000001;
+    position: absolute;
+    left: 0;
+    margin-left: -20px;
+}
+.checkbox label {
+    position: relative;
+}
+.checkbox label {
+    font-family: 'IBM Plex Sans', sans-serif;
+    min-height: 34px;
+    font-size: 1.4rem;
+    display: block;
+    padding-left: 40px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.checkbox label span {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.checkbox input[type="checkbox"]:focus + label::before {
+    outline: 0;
+}
+.email,
+.senha, .nome, .rsenha{
+    margin-bottom: 20px;
+    padding: 10px;  
+    width: 100%;
+}
+.voltar,
+.criar{
+    padding: 9px;
+}
+.botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+.voltar{
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: white;
+    color: #0069D0;
+    border: 1px solid #0069D0;
+    width: 200px;
+}
+.criar{
+    background-color: #0069D0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    border: none; 
+    width: 200px;
+}
+.voltar:hover,
+.criar:hover{
+    border: 2px solid #000ed0;
+}

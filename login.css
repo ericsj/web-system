@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,700;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    /*A cada 1 será considerado 10px*/
+    font-size: 62.5%;
+    width: 100%;
+}
+@media (max-width: 600px) {
+    html {
+        font-size: 30%;
+    }
+    body section .botao{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+    body section .botao .logar{
+        margin-bottom: 10px;
+        width: 220px;
+    }
+    body section .botao .cadastro{
+        width: 220px;
+    }
+}
+
+.logo-img{
+    display: flex;
+    text-align: center;
+    height: 120px;
+    width: 200px;
+    margin: auto; 
+}
+.logotipo{
+    background-color: #0069D0;
+    height: 100%;
+
+}
+.entrar{
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 10% auto;
+    width: 50%;
+    height: 40%;
+}
+.entrar p{
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+h3{
+    font-size: 2rem;
+}
+.email,
+.senha{
+    margin-bottom: 25px;
+    padding: 10px;  
+    width: 100%;
+}
+.logar,
+.cadastro{
+    padding: 9px;
+}
+.cadastro{
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: white;
+    color: #0069D0;
+    border: 1px solid #0069D0;
+    width: 200px;
+}
+.logar{
+    background-color: #0069D0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    border: none; 
+    width: 200px;
+}
+.logar:hover,
+.cadastro:hover{
+    border: 2px solid #000ed0;
+}
+.botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
